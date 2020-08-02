@@ -1,10 +1,9 @@
 ### Hi there 👋
 
-My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). 
+My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm currently studying Computer Science at UNIFEI (Federal University of Itajubá, MG, Brazil).
 
 Would you like to find me?
 
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/JonathanFLemes)](https://twitter.com/JonathanFLemes)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathanfillipelemes/)](https://www.linkedin.com/in/jonathanfillipelemes/)
 
 <!--
