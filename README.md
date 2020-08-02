@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm currently studying Computer Science at UNIFEI (Federal University of Itajubá, MG, Brazil).
+>My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm currently studying Computer Science at Federal University of Itajubá (UNIFEI).
 
 Would you like to find me?
 
