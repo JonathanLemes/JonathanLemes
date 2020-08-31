@@ -16,7 +16,7 @@ Me and some friends started a software development startup during college, Black
 ---
 
 <div align="center">
-<h3>🧐 I've worked with:</h3>
+<h2>🧐 I've worked with:</h2>
 <br>
 <p align="center">
   <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/frameworks/react.svg" alt="react" style="vertical-align:top; margin:4px">
@@ -39,7 +39,7 @@ Me and some friends started a software development startup during college, Black
   
 ---
 
-### 🗺 Would you like to find me?
+## 🗺 Would you like to find me?
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathanfillipelemes/)](https://www.linkedin.com/in/jonathanfillipelemes/)
 
