@@ -45,10 +45,6 @@ Me and some friends started a software development startup during college, Black
   <h3><a href="www.linkedin.com/in/jonathanfillipelemes">📩 Send me a message!</a></h3>
 </p>
 </div>
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonathanfillipelemes/)](https://www.linkedin.com/in/jonathanfillipelemes/)
-
-</div>
 <!--
 **JonathanLemes/JonathanLemes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
