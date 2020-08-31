@@ -13,6 +13,8 @@ My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working wit
 <br><br>
 Me and some friends started a software development startup during college, BlackFex, currently with two major products: FrogBot (a day trade bot with a user friendly interface) and Kalass (a mobile app that allows students from our university to manage their classes and provides chats to integrate our users).
 
+---
+
 <div align="center">
 <h3>🧐 I've worked with:</h3>
 <br>
@@ -34,6 +36,8 @@ Me and some friends started a software development startup during college, Black
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/tools/powershell.svg" alt="powershell" style="vertical-align:top; margin:4px">
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/tools/visualstudio_code.svg" alt="visualstudio_code" style="vertical-align:top; margin:4px">
 </p>
+  
+---
 
 ### 🗺 Would you like to find me?
 
