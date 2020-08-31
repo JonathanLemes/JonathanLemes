@@ -42,7 +42,7 @@ Me and some friends started a software development startup during college, Black
 <h2>🗺 Would you like to find me?</h2>
 
 <p align="center">
-  <h3><a href="www.linkedin.com/in/jonathanfillipelemes">📩 Send me a message!</a></h3>
+  <h3><a href="https://www.linkedin.com/in/jonathanfillipelemes">📩 Send me a message!</a></h3>
 </p>
 </div>
 <!--
