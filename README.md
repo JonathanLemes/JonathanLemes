@@ -11,7 +11,7 @@
 
 My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm currently studying Computer Science at Federal University of Itajubá (UNIFEI).
 <br><br>
-Me and some friends started a software development startup during college, BlackFex, currently with two major products: FrogBot (a day trade bot with a user friendly interface) and Kalass (a mobile app that allows students from our university to manage their classes and provides chats to integrate our users).
+Me and some friends started a software development startup during college, <a href="https://www.linkedin.com/company/67923504/">BlackFex</a>, currently with two major products: FrogBot (a day trade bot with a user friendly interface) and Kalass (a mobile app that allows students from our university to manage their classes and provides chats to integrate our users).
 
 ---
 
