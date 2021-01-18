@@ -6,11 +6,13 @@
 </div>
 
 <div align="center">
-<h2>💻 Back-End Developer</h2>
+<h2>💻 Full Stack Engineer</h2>
 </div>
 
-My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm currently studying Computer Science at Federal University of Itajubá (UNIFEI).
-<br><br>
+My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm a Full Stack Engineer at <a href="https://www.findmyprofession.com/">Find My Profession Inc.</a>, where I apply my knowledge in ReactJS, ExpressJS, MongoDB and several other stacks, in addition to trying to expand my horizons more and more with new technologies in the face of new problems.
+<br /><br />
+I've been working with programming since 2015, when I started my first IT course, completed in 2017, by CTIG / UNESP. Currently, I study Computer Science at the Federal University of Itajubá (UNIFEI).
+<br /><br />
 Me and some friends started a software development startup during college, <a href="https://www.linkedin.com/company/67923504/">BlackFex</a>, currently with two major products: <a href="https://frogbot.com.br/">FrogBot</a> (a day trade bot with a user friendly interface) and Kalass (a mobile app that allows students from our university to manage their classes and provides chats to integrate our users).
 
 ---
