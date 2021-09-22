@@ -1,9 +1,11 @@
+<!--
 <p align="center">
 <img src="https://github.com/theoxys/theoxys/blob/master/linkedinCover.png" alt="BlackFex" style="vertical-align:top; margin:4px">
 </p>
 <div align="center">
 <h1>Hi there 👋</h1>
 </div>
+-->
 
 <div align="center">
 <h2>💻 Full Stack Engineer</h2>
