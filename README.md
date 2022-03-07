@@ -11,7 +11,7 @@
 <h2>💻 Full Stack Engineer</h2>
 </div>
 
-My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm a Full Stack Engineer at <a href="https://www.findmyprofession.com/">Find My Profession Inc.</a>, where I apply my knowledge in ReactJS, ExpressJS, MongoDB and several other stacks, in addition to trying to expand my horizons more and more with new technologies in the face of new problems.
+My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm a Frontend Engineer at <a href="https://www.findmyprofession.com/">Find My Profession Inc.</a>, where I apply my knowledge in ReactJS, ExpressJS, MongoDB and several other stacks, in addition to trying to expand my horizons more and more with new technologies in the face of new problems.
 <br /><br />
 I've been working with programming since 2015, when I started my first IT course, completed in 2017, by CTIG / UNESP.
 <br /><br />
