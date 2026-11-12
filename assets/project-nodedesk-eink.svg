@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="180" viewBox="0 0 490 180" role="img" aria-label="nodedesk-eink: A jailbroken Kindle as a server dashboard. Go samples the host and draws grayscale PNGs at the device's exact resolution, no headless browser." font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<title>nodedesk-eink: A jailbroken Kindle as a server dashboard. Go samples the host and draws grayscale PNGs at the device's exact resolution, no headless browser.</title>
+<defs>
+  <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
+  <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
+</defs>
+<rect x="0.5" y="0.5" width="489" height="179" rx="6" fill="#f2f0eb" stroke="#1c1b19"/>
+
+
+<path d="M6.5 0.5h477a6 6 0 0 1 6 6v21.5h-489v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
+<text x="16" y="19" font-size="12" fill="#f2f0eb" font-weight="700" text-anchor="start" >nodedesk-eink</text>
+<text x="474" y="19" font-size="12" fill="#d9d6cf" font-weight="400" text-anchor="end" >★ 1</text>
+<rect x="18.5" y="44.5" width="76" height="76" fill="url(#dither-light)" stroke="#1c1b19"/>
+<rect x="28.5" y="54.5" width="56" height="56" fill="#f2f0eb" stroke="#1c1b19"/>
+<path d="M41 61h3v3h-3zM44 61h3v3h-3zM47 61h3v3h-3zM50 61h3v3h-3zM53 61h3v3h-3zM56 61h3v3h-3zM59 61h3v3h-3zM62 61h3v3h-3zM65 61h3v3h-3zM68 61h3v3h-3zM41 64h3v3h-3zM68 64h3v3h-3zM41 67h3v3h-3zM47 67h3v3h-3zM50 67h3v3h-3zM53 67h3v3h-3zM56 67h3v3h-3zM59 67h3v3h-3zM62 67h3v3h-3zM68 67h3v3h-3zM41 70h3v3h-3zM68 70h3v3h-3zM41 73h3v3h-3zM47 73h3v3h-3zM50 73h3v3h-3zM53 73h3v3h-3zM56 73h3v3h-3zM68 73h3v3h-3zM41 76h3v3h-3zM68 76h3v3h-3zM41 79h3v3h-3zM62 79h3v3h-3zM68 79h3v3h-3zM41 82h3v3h-3zM47 82h3v3h-3zM59 82h3v3h-3zM68 82h3v3h-3zM41 85h3v3h-3zM50 85h3v3h-3zM56 85h3v3h-3zM68 85h3v3h-3zM41 88h3v3h-3zM53 88h3v3h-3zM68 88h3v3h-3zM41 91h3v3h-3zM68 91h3v3h-3zM41 94h3v3h-3zM44 94h3v3h-3zM47 94h3v3h-3zM50 94h3v3h-3zM53 94h3v3h-3zM56 94h3v3h-3zM59 94h3v3h-3zM62 94h3v3h-3zM65 94h3v3h-3zM68 94h3v3h-3zM41 97h3v3h-3zM53 97h3v3h-3zM56 97h3v3h-3zM68 97h3v3h-3zM41 100h3v3h-3zM44 100h3v3h-3zM47 100h3v3h-3zM50 100h3v3h-3zM53 100h3v3h-3zM56 100h3v3h-3zM59 100h3v3h-3zM62 100h3v3h-3zM65 100h3v3h-3zM68 100h3v3h-3z" fill="#1c1b19" shape-rendering="crispEdges"/>
+<text x="112" y="58" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >A jailbroken Kindle as a server dashboard. Go</text>
+<text x="112" y="77" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >samples the host and draws grayscale PNGs at</text>
+<text x="112" y="96" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >the device's exact resolution, no headless</text>
+<text x="112" y="115" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >browser.</text>
+<path d="M18 140.5h454" stroke="#d9d6cf"/>
+<text x="18" y="163" font-size="12" fill="#62605a" font-weight="400" text-anchor="start" >go · linux · fbink</text>
+<text x="472" y="163" font-size="12" fill="#62605a" font-weight="400" text-anchor="end" >open -&gt;</text>
+</svg>

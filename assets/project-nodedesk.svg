@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="180" viewBox="0 0 490 180" role="img" aria-label="NodeDesk: A desktop in the browser for a home server: apps, Docker, files, storage, a web terminal and live monitoring, shipped as one Go binary." font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<title>NodeDesk: A desktop in the browser for a home server: apps, Docker, files, storage, a web terminal and live monitoring, shipped as one Go binary.</title>
+<defs>
+  <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
+  <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
+</defs>
+<rect x="0.5" y="0.5" width="489" height="179" rx="6" fill="#f2f0eb" stroke="#1c1b19"/>
+
+
+<path d="M6.5 0.5h477a6 6 0 0 1 6 6v21.5h-489v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
+<text x="16" y="19" font-size="12" fill="#f2f0eb" font-weight="700" text-anchor="start" >NodeDesk</text>
+<text x="474" y="19" font-size="12" fill="#d9d6cf" font-weight="400" text-anchor="end" >★ 6</text>
+<rect x="18.5" y="44.5" width="76" height="76" fill="url(#dither-light)" stroke="#1c1b19"/>
+<rect x="28.5" y="54.5" width="56" height="56" fill="#f2f0eb" stroke="#1c1b19"/>
+<path d="M40 70h2v2h-2zM42 70h2v2h-2zM44 70h2v2h-2zM46 70h2v2h-2zM48 70h2v2h-2zM50 70h2v2h-2zM52 70h2v2h-2zM54 70h2v2h-2zM56 70h2v2h-2zM58 70h2v2h-2zM60 70h2v2h-2zM62 70h2v2h-2zM64 70h2v2h-2zM66 70h2v2h-2zM68 70h2v2h-2zM70 70h2v2h-2zM40 72h2v2h-2zM70 72h2v2h-2zM40 74h2v2h-2zM44 74h2v2h-2zM48 74h2v2h-2zM52 74h2v2h-2zM70 74h2v2h-2zM40 76h2v2h-2zM42 76h2v2h-2zM44 76h2v2h-2zM46 76h2v2h-2zM48 76h2v2h-2zM50 76h2v2h-2zM52 76h2v2h-2zM54 76h2v2h-2zM56 76h2v2h-2zM58 76h2v2h-2zM60 76h2v2h-2zM62 76h2v2h-2zM64 76h2v2h-2zM66 76h2v2h-2zM68 76h2v2h-2zM70 76h2v2h-2zM40 78h2v2h-2zM70 78h2v2h-2zM40 80h2v2h-2zM44 80h2v2h-2zM46 80h2v2h-2zM48 80h2v2h-2zM50 80h2v2h-2zM52 80h2v2h-2zM58 80h2v2h-2zM60 80h2v2h-2zM62 80h2v2h-2zM64 80h2v2h-2zM66 80h2v2h-2zM70 80h2v2h-2zM40 82h2v2h-2zM44 82h2v2h-2zM46 82h2v2h-2zM48 82h2v2h-2zM50 82h2v2h-2zM52 82h2v2h-2zM70 82h2v2h-2zM40 84h2v2h-2zM44 84h2v2h-2zM46 84h2v2h-2zM48 84h2v2h-2zM50 84h2v2h-2zM52 84h2v2h-2zM58 84h2v2h-2zM60 84h2v2h-2zM62 84h2v2h-2zM64 84h2v2h-2zM70 84h2v2h-2zM40 86h2v2h-2zM44 86h2v2h-2zM46 86h2v2h-2zM48 86h2v2h-2zM50 86h2v2h-2zM52 86h2v2h-2zM70 86h2v2h-2zM40 88h2v2h-2zM44 88h2v2h-2zM46 88h2v2h-2zM48 88h2v2h-2zM50 88h2v2h-2zM52 88h2v2h-2zM58 88h2v2h-2zM60 88h2v2h-2zM62 88h2v2h-2zM64 88h2v2h-2zM66 88h2v2h-2zM70 88h2v2h-2zM40 90h2v2h-2zM70 90h2v2h-2zM40 92h2v2h-2zM42 92h2v2h-2zM44 92h2v2h-2zM46 92h2v2h-2zM48 92h2v2h-2zM50 92h2v2h-2zM52 92h2v2h-2zM54 92h2v2h-2zM56 92h2v2h-2zM58 92h2v2h-2zM60 92h2v2h-2zM62 92h2v2h-2zM64 92h2v2h-2zM66 92h2v2h-2zM68 92h2v2h-2zM70 92h2v2h-2z" fill="#1c1b19" shape-rendering="crispEdges"/>
+<text x="112" y="58" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >A desktop in the browser for a home server:</text>
+<text x="112" y="77" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >apps, Docker, files, storage, a web terminal</text>
+<text x="112" y="96" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >and live monitoring, shipped as one Go binary.</text>
+<path d="M18 140.5h454" stroke="#d9d6cf"/>
+<text x="18" y="163" font-size="12" fill="#62605a" font-weight="400" text-anchor="start" >go · react · typescript · sqlite</text>
+<text x="472" y="163" font-size="12" fill="#62605a" font-weight="400" text-anchor="end" >open -&gt;</text>
+</svg>

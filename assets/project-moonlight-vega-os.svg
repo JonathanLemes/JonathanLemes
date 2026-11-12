@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="180" viewBox="0 0 490 180" role="img" aria-label="Moonlight-Vega-OS: Game streaming on Fire TV (Vega OS). React Native UI over a C++ TurboModule that wraps moonlight-common-c and reads the gamepad off the JS bridge." font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<title>Moonlight-Vega-OS: Game streaming on Fire TV (Vega OS). React Native UI over a C++ TurboModule that wraps moonlight-common-c and reads the gamepad off the JS bridge.</title>
+<defs>
+  <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
+  <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
+</defs>
+<rect x="0.5" y="0.5" width="489" height="179" rx="6" fill="#f2f0eb" stroke="#1c1b19"/>
+
+
+<path d="M6.5 0.5h477a6 6 0 0 1 6 6v21.5h-489v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
+<text x="16" y="19" font-size="12" fill="#f2f0eb" font-weight="700" text-anchor="start" >Moonlight-Vega-OS</text>
+<text x="474" y="19" font-size="12" fill="#d9d6cf" font-weight="400" text-anchor="end" >★ 1</text>
+<rect x="18.5" y="44.5" width="76" height="76" fill="url(#dither-light)" stroke="#1c1b19"/>
+<rect x="28.5" y="54.5" width="56" height="56" fill="#f2f0eb" stroke="#1c1b19"/>
+<path d="M40 69h2v2h-2zM42 69h2v2h-2zM44 69h2v2h-2zM46 69h2v2h-2zM48 69h2v2h-2zM50 69h2v2h-2zM52 69h2v2h-2zM54 69h2v2h-2zM56 69h2v2h-2zM58 69h2v2h-2zM60 69h2v2h-2zM62 69h2v2h-2zM64 69h2v2h-2zM66 69h2v2h-2zM68 69h2v2h-2zM70 69h2v2h-2zM40 71h2v2h-2zM70 71h2v2h-2zM40 73h2v2h-2zM52 73h2v2h-2zM70 73h2v2h-2zM40 75h2v2h-2zM52 75h2v2h-2zM54 75h2v2h-2zM70 75h2v2h-2zM40 77h2v2h-2zM52 77h2v2h-2zM54 77h2v2h-2zM56 77h2v2h-2zM70 77h2v2h-2zM40 79h2v2h-2zM52 79h2v2h-2zM54 79h2v2h-2zM56 79h2v2h-2zM58 79h2v2h-2zM70 79h2v2h-2zM40 81h2v2h-2zM52 81h2v2h-2zM54 81h2v2h-2zM56 81h2v2h-2zM70 81h2v2h-2zM40 83h2v2h-2zM52 83h2v2h-2zM54 83h2v2h-2zM70 83h2v2h-2zM40 85h2v2h-2zM52 85h2v2h-2zM70 85h2v2h-2zM40 87h2v2h-2zM70 87h2v2h-2zM40 89h2v2h-2zM42 89h2v2h-2zM44 89h2v2h-2zM46 89h2v2h-2zM48 89h2v2h-2zM50 89h2v2h-2zM52 89h2v2h-2zM54 89h2v2h-2zM56 89h2v2h-2zM58 89h2v2h-2zM60 89h2v2h-2zM62 89h2v2h-2zM64 89h2v2h-2zM66 89h2v2h-2zM68 89h2v2h-2zM70 89h2v2h-2zM54 91h2v2h-2zM56 91h2v2h-2zM50 93h2v2h-2zM52 93h2v2h-2zM54 93h2v2h-2zM56 93h2v2h-2zM58 93h2v2h-2zM60 93h2v2h-2z" fill="#1c1b19" shape-rendering="crispEdges"/>
+<text x="112" y="58" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >Game streaming on Fire TV (Vega OS). React</text>
+<text x="112" y="77" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >Native UI over a C++ TurboModule that wraps</text>
+<text x="112" y="96" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >moonlight-common-c and reads the gamepad off</text>
+<text x="112" y="115" font-size="12.5" fill="#1c1b19" font-weight="400" text-anchor="start" >the JS bridge.</text>
+<path d="M18 140.5h454" stroke="#d9d6cf"/>
+<text x="18" y="163" font-size="12" fill="#62605a" font-weight="400" text-anchor="start" >react native · c++</text>
+<text x="472" y="163" font-size="12" fill="#62605a" font-weight="400" text-anchor="end" >open -&gt;</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="374" viewBox="0 0 1000 374" role="img" aria-label="Career history" font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<title>Career history</title>
+<defs>
+  <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
+  <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
+</defs>
+<rect x="0.5" y="0.5" width="999" height="373" rx="6" fill="#f2f0eb" stroke="#1c1b19"/>
+
+
+<path d="M6.5 0.5h987a6 6 0 0 1 6 6v21.5h-999v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
+<text x="16" y="19" font-size="12" fill="#f2f0eb" font-weight="700" text-anchor="start" >JOURNEY</text>
+<text x="984" y="19" font-size="12" fill="#d9d6cf" font-weight="400" text-anchor="end" >git log --graph career</text>
+<path d="M32 54V342" stroke="#1c1b19" stroke-width="2"/>
+<rect x="26" y="48" width="12" height="12" fill="#1c1b19"/>
+<text x="56" y="58" font-size="13" fill="#62605a" font-weight="700" text-anchor="start" >HEAD</text>
+<text x="116" y="58" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >open source</text>
+<text x="296" y="58" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >home server desktop, e-ink dashboard, fire tv clients, ai agent tooling</text>
+<rect x="27" y="81" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="90" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >·</text>
+<text x="116" y="90" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >Medgrupo</text>
+<text x="296" y="90" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >medical education apps: angular, ionic, electron, single-spa microfrontends</text>
+<rect x="27" y="113" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="122" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >·</text>
+<text x="116" y="122" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >BairesDev</text>
+<text x="296" y="122" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >frontend engineer and team leader for us clients: staffzone, racino.io</text>
+<rect x="27" y="145" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="154" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >·</text>
+<text x="116" y="154" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >PartiuRolê</text>
+<text x="296" y="154" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >co-founder: event and ticketing apps in expo, monorepo api, infra on gcp</text>
+<rect x="27" y="177" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="186" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >·</text>
+<text x="116" y="186" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >Uniamérica</text>
+<text x="296" y="186" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >computer engineering degree</text>
+<rect x="27" y="209" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="218" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >2021</text>
+<text x="116" y="218" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >DigitalSys</text>
+<text x="296" y="218" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >medpass: real-time telehealth on web and mobile with react native and twilio</text>
+<rect x="27" y="241" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="250" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >2019</text>
+<text x="116" y="250" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >Find My Profession</text>
+<text x="296" y="250" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >resumezest: payments, admin, live chat; later engineering manager</text>
+<rect x="27" y="273" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="282" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >·</text>
+<text x="116" y="282" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >Black Bee Drones</text>
+<text x="296" y="282" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >computer vision experiments for drones: python, opencv, tensorflow</text>
+<rect x="27" y="305" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="314" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >2018</text>
+<text x="116" y="314" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >Advantech</text>
+<text x="296" y="314" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >energy management and monitoring central at UNIFEI: node-red, influxdb</text>
+<rect x="27" y="337" width="10" height="10" fill="#f2f0eb" stroke="#1c1b19" stroke-width="2"/>
+<text x="56" y="346" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >2015</text>
+<text x="116" y="346" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >CTIG · UNESP</text>
+<text x="296" y="346" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >computer technician, where it started</text>
+</svg>
