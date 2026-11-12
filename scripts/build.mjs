@@ -150,6 +150,8 @@ function pixelIcon(name, x, y, size) {
 
 const cache = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, "utf8")) : {};
 
+const MARKUP = ["CSS", "HTML", "SCSS", "Shell", "Dockerfile", "Makefile", "CMake", "Batchfile", "PowerShell"];
+
 async function fetchLive() {
   const res = await fetch("https://api.github.com/graphql", {
     method: "POST",
@@ -163,6 +165,10 @@ async function fetchLive() {
               languages(first:10, orderBy:{field:SIZE, direction:DESC}){ edges{ size node{ name } } } }
           }
           contributionsCollection{
+            commitContributionsByRepository(maxRepositories:100){
+              contributions{ totalCount }
+              repository{ isPrivate languages(first:10, orderBy:{field:SIZE, direction:DESC}){ edges{ size node{ name } } } }
+            }
             contributionCalendar{ totalContributions
               weeks{ contributionDays{ date contributionCount } } }
           }
@@ -173,14 +179,30 @@ async function fetchLive() {
   const json = await res.json();
   if (json.errors || !json.data) throw new Error(JSON.stringify(json.errors ?? json));
   const repos = json.data.user.repositories.nodes;
+  const cc = json.data.user.contributionsCollection;
+  const cal = cc.contributionCalendar;
+
+  // Languages are weighted by where the commits went in the last 12 months,
+  // private repos included when the token can see them. Each repo's commits
+  // are split across its languages by code size. Only totals are stored, so
+  // private repo names never reach this public repo.
   const languages = {};
-  for (const r of repos) for (const e of r.languages.edges) languages[e.node.name] = (languages[e.node.name] ?? 0) + e.size;
-  const cal = json.data.user.contributionsCollection.contributionCalendar;
+  const touched = cc.commitContributionsByRepository;
+  for (const { contributions, repository } of touched) {
+    const edges = repository.languages.edges.filter((e) => !MARKUP.includes(e.node.name));
+    const size = edges.reduce((a, e) => a + e.size, 0);
+    for (const e of edges) languages[e.node.name] = (languages[e.node.name] ?? 0) + (contributions.totalCount * e.size) / size;
+  }
+  // Fallback when there are no commits in the window: public code by size.
+  if (!Object.keys(languages).length)
+    for (const r of repos) for (const e of r.languages.edges) languages[e.node.name] = (languages[e.node.name] ?? 0) + e.size;
   return {
     updated: new Date().toISOString().slice(0, 10),
     stars: Object.fromEntries(repos.map((r) => [r.name, r.stargazerCount])),
     totalStars: repos.reduce((a, r) => a + r.stargazerCount, 0),
     publicRepos: repos.length,
+    reposTouched: touched.length,
+    privateReposTouched: touched.filter((t) => t.repository.isPrivate).length,
     languages,
     total: cal.totalContributions,
     weeks: cal.weeks.map((w) => w.contributionDays.map((d) => [d.date, d.contributionCount])),
@@ -204,7 +226,7 @@ function hero() {
   const W = 1000, H = 320;
   const lines = [
     { t: "$ whoami", cmd: true },
-    { t: "jonathan lemes, frontend engineer, brazil" },
+    { t: "jonathan lemes, software engineer, brazil" },
     { t: "$ cat focus", cmd: true },
     { t: "react, react native, next.js, typescript, go" },
     { t: "$ ls ~/open-source", cmd: true },
@@ -244,7 +266,7 @@ ${text(rx + 14, y + 49, value, { size: 20, weight: 700 })}`;
   const icons = ["window", "kindle", "phone", "tv"];
   const body = `
 ${bar(W, "JONATHAN LEMES", "pt · en · es")}
-${text(x, 76, "Frontend Engineer", { size: 30, weight: 700 })}
+${text(x, 76, "Software Engineer", { size: 30, weight: 700 })}
 ${text(x, 100, "web, mobile, tv and e-ink", { fill: DARK })}
 <path d="M${x} 112.5h630" stroke="${LIGHT}"/>
 ${term}
@@ -252,7 +274,7 @@ ${block(46, "first line of code", "2015")}
 ${block(122, "shipping software since", "2018")}
 <rect x="${rx + 0.5}" y="198.5" width="${rw}" height="92" fill="url(#dither-light)" stroke="${INK}"/>
 ${icons.map((n, i) => `<rect x="${rx + 18.5 + i * 62}" y="218.5" width="52" height="52" fill="${PAPER}" stroke="${INK}"/>${pixelIcon(n, rx + 27 + i * 62, 227, 36)}`).join("")}`;
-  return svg(W, H, body, "Jonathan Lemes, Frontend Engineer");
+  return svg(W, H, body, "Jonathan Lemes, Software Engineer");
 }
 
 // -------------------------------------------------------------- projects ---
@@ -343,9 +365,7 @@ function activity() {
 
   const activeDays = days.filter((d) => d[1] > 0).length;
   const sx = gx + gridW + 34;
-  const langs = Object.entries(live.languages ?? {}).filter(
-    ([n]) => !["CSS", "HTML", "SCSS", "Shell", "Dockerfile", "Makefile", "CMake"].includes(n),
-  );
+  const langs = Object.entries(live.languages ?? {}).filter(([n]) => !MARKUP.includes(n));
   const ltotal = langs.reduce((a, [, s]) => a + s, 0) || 1;
   const top = langs.sort((a, b) => b[1] - a[1]).slice(0, 5);
   const lw = W - sx - 24 - 130;
@@ -366,9 +386,9 @@ ${text(gx + 112, by + 24, "more", { size: 11, fill: DARK })}
 <path d="M${sx - 17.5} 44v${H - 64}" stroke="${LIGHT}"/>
 ${stat(sx, 54, "contributions", (live.total ?? 0).toLocaleString("en-US"))}
 ${stat(sx + 130, 54, "active days", `${activeDays}`)}
-${stat(sx, 110, "public repos", `${live.publicRepos ?? 0}`)}
+${stat(sx, 110, "repos with commits", `${live.reposTouched ?? live.publicRepos ?? 0}`)}
 ${stat(sx + 130, 110, "stars", `${live.totalStars ?? 0}`)}
-${text(sx, 172, "languages in public repos", { size: 11, fill: DARK })}
+${text(sx, 172, "languages, weighted by commits", { size: 11, fill: DARK })}
 ${top
   .map(([name, size], i) => {
     const y = 194 + i * 19;
@@ -418,7 +438,7 @@ function journey() {
   const rows = [
     { ref: "HEAD", year: "", what: "open source", note: "home server desktop, e-ink dashboard, fire tv clients, ai agent tooling" },
     { ref: "", year: "", what: "Medgrupo", note: "medical education apps: angular, ionic, electron, single-spa microfrontends" },
-    { ref: "", year: "", what: "BairesDev", note: "frontend engineer and team leader for us clients: staffzone, racino.io" },
+    { ref: "", year: "", what: "BairesDev", note: "software engineer and team leader for us clients: staffzone, racino.io" },
     { ref: "", year: "", what: "PartiuRolê", note: "co-founder: event and ticketing apps in expo, monorepo api, infra on gcp" },
     { ref: "", year: "", what: "Uniamérica", note: "computer engineering degree" },
     { ref: "", year: "2021", what: "DigitalSys", note: "medpass: real-time telehealth on web and mobile with react native and twilio" },

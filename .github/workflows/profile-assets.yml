@@ -26,8 +26,10 @@ jobs:
       - name: Build SVGs
         run: node scripts/build.mjs
         env:
-          # Optional: a classic PAT with read:user in the PROFILE_TOKEN secret
-          # also counts private contributions. Falls back to public data only.
+          # Contributions already include private ones (profile setting).
+          # For the languages to include private repos, add a classic PAT from
+          # JonathanLemes with the `repo` and `read:user` scopes as the
+          # PROFILE_TOKEN secret. Without it, only public repos are weighed.
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changes

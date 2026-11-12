@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Jonathan Lemes, Frontend Engineer" font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
-<title>Jonathan Lemes, Frontend Engineer</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Jonathan Lemes, Software Engineer" font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<title>Jonathan Lemes, Software Engineer</title>
 <defs>
   <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
   <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
@@ -10,13 +10,13 @@
 <path d="M6.5 0.5h987a6 6 0 0 1 6 6v21.5h-999v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
 <text x="16" y="19" font-size="12" fill="#f2f0eb" font-weight="700" text-anchor="start" >JONATHAN LEMES</text>
 <text x="984" y="19" font-size="12" fill="#d9d6cf" font-weight="400" text-anchor="end" >pt · en · es</text>
-<text x="32" y="76" font-size="30" fill="#1c1b19" font-weight="700" text-anchor="start" >Frontend Engineer</text>
+<text x="32" y="76" font-size="30" fill="#1c1b19" font-weight="700" text-anchor="start" >Software Engineer</text>
 <text x="32" y="100" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >web, mobile, tv and e-ink</text>
 <path d="M32 112.5h630" stroke="#d9d6cf"/>
 <clipPath id="c0"><rect x="30" y="118" height="20" width="0"><animate attributeName="width" values="0.0;9.8;17.6;25.4;33.2;41.0;48.8;56.6;64.4" calcMode="discrete" dur="0.48s" begin="0.30s" fill="freeze"/></rect></clipPath>
 <text x="32" y="132" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" clip-path="url(#c0)" xml:space="preserve">$ whoami</text>
 
-<g opacity="0"><set attributeName="opacity" to="1" begin="1.08s" fill="freeze"/><text x="32" y="157" font-size="13" fill="#1c1b19" font-weight="400" text-anchor="start" xml:space="preserve">jonathan lemes, frontend engineer, brazil</text></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="1.08s" fill="freeze"/><text x="32" y="157" font-size="13" fill="#1c1b19" font-weight="400" text-anchor="start" xml:space="preserve">jonathan lemes, software engineer, brazil</text></g>
 <clipPath id="c2"><rect x="30" y="168" height="20" width="0"><animate attributeName="width" values="0.0;9.8;17.6;25.4;33.2;41.0;48.8;56.6;64.4;72.2;80.0;87.8" calcMode="discrete" dur="0.6599999999999999s" begin="1.23s" fill="freeze"/></rect></clipPath>
 <text x="32" y="182" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" clip-path="url(#c2)" xml:space="preserve">$ cat focus</text>
 
