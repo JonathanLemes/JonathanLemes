@@ -1,63 +1,47 @@
-<!--
-<p align="center">
-<img src="https://github.com/theoxys/theoxys/blob/master/linkedinCover.png" alt="BlackFex" style="vertical-align:top; margin:4px">
-</p>
-<div align="center">
-<h1>Hi there 👋</h1>
-</div>
--->
+<img src="assets/hero.svg" alt="Jonathan Lemes, Frontend Engineer" width="100%" />
 
-<div align="center">
-<h2>💻 Frontend Engineer</h2>
-</div>
+I'm Jonathan, a frontend engineer from Brazil. I build web and mobile products with React, React Native, Next.js and TypeScript, mostly the parts with real-time data, payments or dense operational screens.
 
-My name is Jonathan Fillipe Lemes, from Brazil (🇧🇷). I've been working with programming since 2015, when I started my first IT course. I'm a Frontend Engineer, constantly improving my knowledge in React.JS, React Native, Expo and several other stacks, in addition to trying to expand my horizons more and more with new technologies in the face of new problems.
-<br /><br />
-In 2015 I started my first IT course, completed in 2017, by CTIG / UNESP.
-<br /><br />
+On the side I build software for the screens around my house: a desktop for my home server, a Kindle that shows its health on e-ink, Fire TV clients and a way to drive AI coding agents from my phone. The cards below are the public ones.
 
----
+### Projects
 
-<div align="center">
-<h2>🧐 I've worked with:</h2>
-<br>
-<p align="center">
-  <img src="https://github.com/Quadrified/Quadrified/blob/master/assets/svg/dev/frameworks/react.svg" alt="react" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/nodejs.svg" alt="noddejs" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/misc/cloud.svg" alt="cloud" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/misc/mobile.svg" alt="mobile" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/misc/web.svg" alt="web" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/html.svg" alt="html" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/js.svg" alt="javascript" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/python.svg" alt="python" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/java.svg" alt="java" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/services/aws.svg" alt="aws" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/services/npm.svg" alt="npm" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/services/office_365.svg" alt="office_365" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/tools/android_studio.svg" alt="android_studio" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/tools/powershell.svg" alt="powershell" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/tools/visualstudio_code.svg" alt="visualstudio_code" style="vertical-align:top; margin:4px">
-</p>
-  
----
+<a href="https://github.com/JonathanLemes/NodeDesk"><img src="assets/project-nodedesk.svg" alt="NodeDesk" width="49%" /></a>
+<a href="https://github.com/JonathanLemes/nodedesk-eink"><img src="assets/project-nodedesk-eink.svg" alt="nodedesk-eink" width="49%" /></a>
+<a href="https://github.com/JonathanLemes/reilai"><img src="assets/project-reilai.svg" alt="reilai" width="49%" /></a>
+<a href="https://github.com/JonathanLemes/Moonlight-Vega-OS"><img src="assets/project-moonlight-vega-os.svg" alt="Moonlight for Vega OS" width="49%" /></a>
+<a href="https://github.com/JonathanLemes/Jellyfin-Vega-OS"><img src="assets/project-jellyfin-vega-os.svg" alt="Jellyfin for Vega OS" width="49%" /></a>
 
-<h2>🗺 Would you like to find me?</h2>
+### Activity
 
-<p align="center">
-  <h3><a href="https://www.linkedin.com/in/jonathanfillipelemes">📩 Send me a message!</a></h3>
-</p>
-</div>
-<!--
-**JonathanLemes/JonathanLemes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="assets/activity.svg" alt="Contributions in the last 12 months, public repos, stars and languages" width="100%" />
 
-Here are some ideas to get you started:
+### Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="assets/stack.svg" alt="Languages, frameworks and tools" width="100%" />
+
+### Journey
+
+<img src="assets/journey.svg" alt="Career history" width="100%" />
+
+<details>
+<summary>Details</summary>
+<br />
+
+- **Medgrupo**: software engineer on medical education apps. An Angular + Ionic mobile app, its Electron desktop build and single-spa microfrontends deployed on S3 and CloudFront, including an offline-capable classroom check-in by QR code with facial biometrics.
+- **BairesDev**: frontend engineer and team leader for US clients. On StaffZone, workforce dispatch for construction labor: drag-and-drop crew assignment, map-based scheduling, payroll and per-state tax flows (Next.js, Material UI, DnD Kit). On Racino.io, led the frontend of a gaming platform with Unity integration, avatars and USD and crypto payments (Expo, Next.js, GraphQL), and built its feature flag integration.
+- **PartiuRolê**: co-founder and mobile lead of an event discovery and ticketing product. Built the buyer and producer apps in Expo on a shared UI library; the second version runs on a Bun + Turborepo monorepo with Next.js, Elysia and PostgreSQL, deployed to GCP with Terraform.
+- **Uniamérica**: degree in Computer Engineering.
+- **DigitalSys**: frontend engineer on Medpass, where nurses and doctors attend patients through chat and video on web and mobile (React Native, Expo, Twilio, Sentry).
+- **Find My Profession**: frontend engineer, later managing the engineering roadmap. Built ResumeZest end to end: sign-up and payments, admin and customer areas, and a WebSocket chat between them (React, Redux-Saga, AWS, Nginx).
+- **Black Bee Drones**: computer vision experiments for drones (Python, OpenCV, TensorFlow).
+- **Advantech**: intern on the energy management and monitoring central at the Federal University of Itajubá, wiring industrial automation into software (Node-RED, InfluxDB).
+- **CTIG · UNESP**: computer technician course.
+
+</details>
+
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/jonathanfillipelemes) · [GitHub](https://github.com/JonathanLemes)
+
+<sub>The images on this page are SVGs drawn by <a href="scripts/build.mjs">scripts/build.mjs</a>. A GitHub Action redraws them every day with fresh data.</sub>
