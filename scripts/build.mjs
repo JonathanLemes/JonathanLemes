@@ -36,6 +36,7 @@ const esc = (s) =>
 const svg = (w, h, body, title) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(title)}" font-family="${MONO}">
 <title>${esc(title)}</title>
 <defs>
+  <pattern id="dither-ink" width="2" height="2" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="${MID}"/><rect width="1" height="1" fill="${INK}"/><rect x="1" y="1" width="1" height="1" fill="${INK}"/></pattern>
   <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="${PAPER}"/><rect width="2" height="2" fill="${MID}"/><rect x="2" y="2" width="2" height="2" fill="${MID}"/></pattern>
   <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="${PAPER}"/><rect width="1" height="1" fill="${MID}"/><rect x="2" y="2" width="1" height="1" fill="${MID}"/></pattern>
 </defs>
@@ -338,7 +339,10 @@ function activity() {
   const q = (p) => sorted[Math.floor(p * (sorted.length - 1))] ?? 1;
   const cuts = [q(0.25), q(0.5), q(0.75)];
   const level = (v) => (v === 0 ? 0 : 1 + cuts.filter((c) => v > c).length);
-  const scale = [LIGHT, "url(#dither)", MID, DARK, INK];
+  // Zero is an empty outlined box; any activity is a solid fill, so a day
+  // with a single commit never reads as an empty one.
+  const scale = [PAPER, MID, "url(#dither-ink)", DARK, INK];
+  const cellAttrs = (lv) => (lv === 0 ? `fill="${PAPER}" stroke="${LIGHT}"` : `fill="${scale[lv]}"`);
   const cell = 10, gap = 3, gx = 24, gy = 66;
 
   const grid = weeks
@@ -346,7 +350,7 @@ function activity() {
       w
         .map(([date, v]) => {
           const dow = new Date(date + "T00:00:00Z").getUTCDay();
-          return `<rect x="${gx + wi * (cell + gap)}" y="${gy + dow * (cell + gap)}" width="${cell}" height="${cell}" fill="${scale[level(v)]}"><title>${date}: ${v}</title></rect>`;
+          return `<rect x="${gx + wi * (cell + gap)}" y="${gy + dow * (cell + gap)}" width="${cell}" height="${cell}" ${cellAttrs(level(v))}><title>${date}: ${v}</title></rect>`;
         })
         .join(""),
     )
@@ -381,7 +385,7 @@ ${text(gx, by - bh - 10, "per week", { size: 11, fill: DARK })}
 ${bars}
 <path d="M${gx} ${by + 0.5}h${gridW}" stroke="${INK}"/>
 ${text(gx, by + 24, "less", { size: 11, fill: DARK })}
-${scale.map((f, i) => `<rect x="${gx + 38 + i * 14}" y="${by + 14}" width="10" height="10" fill="${f}"/>`).join("")}
+${scale.map((_, i) => `<rect x="${gx + 38 + i * 14}" y="${by + 14}" width="10" height="10" ${cellAttrs(i)}/>`).join("")}
 ${text(gx + 112, by + 24, "more", { size: 11, fill: DARK })}
 <path d="M${sx - 17.5} 44v${H - 64}" stroke="${LIGHT}"/>
 ${stat(sx, 54, "contributions", (live.total ?? 0).toLocaleString("en-US"))}

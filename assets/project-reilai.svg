@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="490" height="180" viewBox="0 0 490 180" role="img" aria-label="reilai: Start, follow and approve Claude Code and Codex sessions from the terminal, the browser or a phone, over an end-to-end encrypted tunnel." font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
 <title>reilai: Start, follow and approve Claude Code and Codex sessions from the terminal, the browser or a phone, over an end-to-end encrypted tunnel.</title>
 <defs>
+  <pattern id="dither-ink" width="2" height="2" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#a8a49c"/><rect width="1" height="1" fill="#1c1b19"/><rect x="1" y="1" width="1" height="1" fill="#1c1b19"/></pattern>
   <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
   <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
 </defs>
