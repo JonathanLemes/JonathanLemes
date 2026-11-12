@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Tech stack" font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="266" viewBox="0 0 1000 266" role="img" aria-label="Tech stack" font-family="ui-monospace,'JetBrains Mono','IBM Plex Mono',Menlo,Consolas,'Liberation Mono',monospace">
 <title>Tech stack</title>
 <defs>
   <pattern id="dither-ink" width="2" height="2" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="#a8a49c"/><rect width="1" height="1" fill="#1c1b19"/><rect x="1" y="1" width="1" height="1" fill="#1c1b19"/></pattern>
   <pattern id="dither" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="2" height="2" fill="#a8a49c"/><rect x="2" y="2" width="2" height="2" fill="#a8a49c"/></pattern>
   <pattern id="dither-light" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" fill="#f2f0eb"/><rect width="1" height="1" fill="#a8a49c"/><rect x="2" y="2" width="1" height="1" fill="#a8a49c"/></pattern>
 </defs>
-<rect x="0.5" y="0.5" width="999" height="239" rx="6" fill="#f2f0eb" stroke="#1c1b19"/>
+<rect x="0.5" y="0.5" width="999" height="265" rx="6" fill="#f2f0eb" stroke="#1c1b19"/>
 
 
 <path d="M6.5 0.5h987a6 6 0 0 1 6 6v21.5h-999v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
@@ -32,4 +32,7 @@
 <rect x="1" y="189" width="998" height="26" fill="#e8e5de"/>
 <text x="24" y="206" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >quality</text>
 <text x="150" y="206" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >jest, cypress, playwright, sentry, tdd</text>
+
+<text x="24" y="232" font-size="13" fill="#1c1b19" font-weight="700" text-anchor="start" >ai</text>
+<text x="150" y="232" font-size="13" fill="#62605a" font-weight="400" text-anchor="start" >claude code, codex, claude agent sdk, mcp, ollama</text>
 </svg>

@@ -1,6 +1,6 @@
 <img src="assets/hero.svg" alt="Jonathan Lemes, Software Engineer" width="100%" />
 
-I'm Jonathan, a software engineer from Brazil. I build web and mobile products with React, React Native, Next.js, TypeScript, Go and Rust, mostly the parts with real-time data, payments or dense operational screens.
+I'm Jonathan, a software engineer from Brazil. I build web and mobile products with React, React Native, Next.js, TypeScript, Go and Rust, mostly the parts with real-time data, payments or dense operational screens. AI coding agents are part of my daily workflow: I work with Claude Code and Codex, and build tooling for them, from MCP servers to a remote control for agent sessions.
 
 On the side I build software for the screens around my house: a desktop for my home server, a Kindle that shows its health on e-ink, Fire TV clients and a way to drive AI coding agents from my phone. The cards below are the public ones.
 

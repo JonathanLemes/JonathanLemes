@@ -418,6 +418,7 @@ function stack() {
     ["data", "postgresql, sqlite, drizzle, supabase"],
     ["infra", "docker, aws, gcp, terraform, vercel, linux"],
     ["quality", "jest, cypress, playwright, sentry, tdd"],
+    ["ai", "claude code, codex, claude agent sdk, mcp, ollama"],
   ];
   const lh = 26, top = 50;
   const H = top + groups.length * lh + 8;
