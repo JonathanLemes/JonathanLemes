@@ -2,12 +2,13 @@
 
 I'm Jonathan, a software engineer from Brazil. I build web and mobile products with React, React Native, Next.js, TypeScript, Go and Rust, mostly the parts with real-time data, payments or dense operational screens. AI coding agents are part of my daily workflow: I work with Claude Code and Codex, and build tooling for them, from MCP servers to a remote control for agent sessions.
 
-On the side I build software for the screens around my house: a desktop for my home server, a Kindle that shows its health on e-ink, Fire TV clients and a way to drive AI coding agents from my phone. The cards below are the public ones.
+On the side I build software for the screens around my house: a desktop for my home server, a Kindle that shows its health on e-ink, a daily newspaper typeset for that Kindle, Fire TV clients and a way to drive AI coding agents from my phone. The cards below are the public ones.
 
 ### Projects
 
 <a href="https://github.com/JonathanLemes/NodeDesk"><img src="assets/project-nodedesk.svg" alt="NodeDesk" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/nodedesk-eink"><img src="assets/project-nodedesk-eink.svg" alt="nodedesk-eink" width="49%" /></a>
+<a href="https://github.com/JonathanLemes/dayfold"><img src="assets/project-dayfold.svg" alt="Dayfold" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/reilai"><img src="assets/project-reilai.svg" alt="reilai" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/Moonlight-Vega-OS"><img src="assets/project-moonlight-vega-os.svg" alt="Moonlight for Vega OS" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/Jellyfin-Vega-OS"><img src="assets/project-jellyfin-vega-os.svg" alt="Jellyfin for Vega OS" width="49%" /></a>

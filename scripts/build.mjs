@@ -100,6 +100,21 @@ const BITMAPS = {
     "..#...##...#..",
     "..##########..",
   ],
+  newspaper: [
+    "################",
+    "#..............#",
+    "#.############.#",
+    "#..............#",
+    "#.######.#####.#",
+    "#.######.......#",
+    "#.######.#####.#",
+    "#.######.......#",
+    "#........#####.#",
+    "#.######.......#",
+    "#........#####.#",
+    "#..............#",
+    "################",
+  ],
   phone: [
     "...########...",
     "..#........#..",
@@ -231,7 +246,7 @@ function hero() {
     { t: "$ cat focus", cmd: true },
     { t: "react, react native, next.js, typescript, go" },
     { t: "$ ls ~/open-source", cmd: true },
-    { t: "nodedesk  nodedesk-eink  reilai  moonlight-vega-os  jellyfin-vega-os" },
+    { t: "nodedesk  nodedesk-eink  dayfold  reilai  moonlight-vega-os  jellyfin-vega-os" },
     { t: "$ ", cmd: true, cursor: true },
   ];
   const x = 32, top = 132, lh = 25;
@@ -292,6 +307,12 @@ const PROJECTS = [
     icon: "kindle",
     desc: "A jailbroken Kindle as a server dashboard. Go samples the host and draws grayscale PNGs at the device's exact resolution, no headless browser.",
     tags: ["go", "linux", "fbink"],
+  },
+  {
+    repo: "dayfold",
+    icon: "newspaper",
+    desc: "A self-hosted daily newspaper for e-readers: news from sources you pick, typeset every morning as a broadsheet EPUB with a cartoon and puzzles.",
+    tags: ["python", "fastapi", "react", "koreader"],
   },
   {
     repo: "reilai",
