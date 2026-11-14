@@ -25,28 +25,28 @@
 <text x="874" y="54" font-size="11" fill="#62605a" font-weight="400" text-anchor="start" >active days</text>
 <text x="874" y="81" font-size="23" fill="#1c1b19" font-weight="700" text-anchor="start" >221</text>
 <text x="744" y="110" font-size="11" fill="#62605a" font-weight="400" text-anchor="start" >repos with commits</text>
-<text x="744" y="137" font-size="23" fill="#1c1b19" font-weight="700" text-anchor="start" >7</text>
+<text x="744" y="137" font-size="23" fill="#1c1b19" font-weight="700" text-anchor="start" >38</text>
 <text x="874" y="110" font-size="11" fill="#62605a" font-weight="400" text-anchor="start" >stars</text>
 <text x="874" y="137" font-size="23" fill="#1c1b19" font-weight="700" text-anchor="start" >17</text>
 <text x="744" y="172" font-size="11" fill="#62605a" font-weight="400" text-anchor="start" >languages, weighted by commits</text>
 <text x="744" y="194" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >typescript</text>
 <rect x="834" y="185" width="102" height="9" fill="#d9d6cf"/>
-<rect x="834" y="185" width="62.1" height="9" fill="#1c1b19"/>
-<text x="976" y="194" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >61%</text>
-<text x="744" y="213" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >go</text>
+<rect x="834" y="185" width="72.2" height="9" fill="#1c1b19"/>
+<text x="976" y="194" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >71%</text>
+<text x="744" y="213" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >javascript</text>
 <rect x="834" y="204" width="102" height="9" fill="#d9d6cf"/>
-<rect x="834" y="204" width="14.6" height="9" fill="#1c1b19"/>
+<rect x="834" y="204" width="14.4" height="9" fill="#1c1b19"/>
 <text x="976" y="213" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >14%</text>
-<text x="744" y="232" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >c++</text>
+<text x="744" y="232" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >gdscript</text>
 <rect x="834" y="223" width="102" height="9" fill="#d9d6cf"/>
-<rect x="834" y="223" width="9.9" height="9" fill="#1c1b19"/>
-<text x="976" y="232" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >10%</text>
-<text x="744" y="251" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >javascript</text>
+<rect x="834" y="223" width="4.3" height="9" fill="#1c1b19"/>
+<text x="976" y="232" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >4%</text>
+<text x="744" y="251" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >python</text>
 <rect x="834" y="242" width="102" height="9" fill="#d9d6cf"/>
-<rect x="834" y="242" width="8.9" height="9" fill="#1c1b19"/>
-<text x="976" y="251" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >9%</text>
-<text x="744" y="270" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >python</text>
+<rect x="834" y="242" width="3.6" height="9" fill="#1c1b19"/>
+<text x="976" y="251" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >4%</text>
+<text x="744" y="270" font-size="11.5" fill="#1c1b19" font-weight="400" text-anchor="start" >go</text>
 <rect x="834" y="261" width="102" height="9" fill="#d9d6cf"/>
-<rect x="834" y="261" width="4.2" height="9" fill="#1c1b19"/>
-<text x="976" y="270" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >4%</text>
+<rect x="834" y="261" width="2.3" height="9" fill="#1c1b19"/>
+<text x="976" y="270" font-size="11.5" fill="#62605a" font-weight="400" text-anchor="end" >2%</text>
 </svg>
