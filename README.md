@@ -6,9 +6,10 @@ On the side I build software for the screens around my house: a desktop for my h
 
 ### Projects
 
+<a href="https://github.com/JonathanLemes/dayfold"><img src="assets/project-dayfold.svg" alt="Dayfold" width="49%" /></a>
+<a href="https://github.com/JonathanLemes/satops"><img src="assets/project-satops.svg" alt="SatOps" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/NodeDesk"><img src="assets/project-nodedesk.svg" alt="NodeDesk" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/nodedesk-eink"><img src="assets/project-nodedesk-eink.svg" alt="nodedesk-eink" width="49%" /></a>
-<a href="https://github.com/JonathanLemes/dayfold"><img src="assets/project-dayfold.svg" alt="Dayfold" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/reilai"><img src="assets/project-reilai.svg" alt="reilai" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/Moonlight-Vega-OS"><img src="assets/project-moonlight-vega-os.svg" alt="Moonlight for Vega OS" width="49%" /></a>
 <a href="https://github.com/JonathanLemes/Jellyfin-Vega-OS"><img src="assets/project-jellyfin-vega-os.svg" alt="Jellyfin for Vega OS" width="49%" /></a>

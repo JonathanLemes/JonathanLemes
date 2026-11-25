@@ -131,6 +131,20 @@ const BITMAPS = {
     "..#........#..",
     "...########...",
   ],
+  bitcoin: [
+    "....#..#....",
+    "..#######...",
+    "..##....##..",
+    "..##....##..",
+    "..##....##..",
+    "..#######...",
+    "..##....##..",
+    "..##.....##.",
+    "..##.....##.",
+    "..##....##..",
+    "..#######...",
+    "....#..#....",
+  ],
   tv: [
     "################",
     "#..............#",
@@ -246,7 +260,7 @@ function hero() {
     { t: "$ cat focus", cmd: true },
     { t: "react, react native, next.js, typescript, go" },
     { t: "$ ls ~/open-source", cmd: true },
-    { t: "nodedesk  nodedesk-eink  dayfold  reilai  moonlight-vega-os  jellyfin-vega-os" },
+    { t: "dayfold  satops  nodedesk  nodedesk-eink  reilai  moonlight-vega-os  jellyfin-vega-os" },
     { t: "$ ", cmd: true, cursor: true },
   ];
   const x = 32, top = 132, lh = 25;
@@ -297,6 +311,18 @@ ${icons.map((n, i) => `<rect x="${rx + 18.5 + i * 62}" y="218.5" width="52" heig
 
 const PROJECTS = [
   {
+    repo: "dayfold",
+    icon: "newspaper",
+    desc: "A self-hosted daily newspaper for e-readers: news from sources you pick, typeset every morning as a broadsheet EPUB with a cartoon and puzzles.",
+    tags: ["python", "fastapi", "react", "koreader"],
+  },
+  {
+    repo: "satops",
+    icon: "bitcoin",
+    desc: "Self-hosted Bitcoin observability on regtest: chain and node monitoring, a double-entry ledger with reconciliation, and chaos scenarios.",
+    tags: ["elixir", "phoenix", "postgresql", "react"],
+  },
+  {
     repo: "NodeDesk",
     icon: "window",
     desc: "A desktop in the browser for a home server: apps, Docker, files, storage, a web terminal and live monitoring, shipped as one Go binary.",
@@ -307,12 +333,6 @@ const PROJECTS = [
     icon: "kindle",
     desc: "A jailbroken Kindle as a server dashboard. Go samples the host and draws grayscale PNGs at the device's exact resolution, no headless browser.",
     tags: ["go", "linux", "fbink"],
-  },
-  {
-    repo: "dayfold",
-    icon: "newspaper",
-    desc: "A self-hosted daily newspaper for e-readers: news from sources you pick, typeset every morning as a broadsheet EPUB with a cartoon and puzzles.",
-    tags: ["python", "fastapi", "react", "koreader"],
   },
   {
     repo: "reilai",
