@@ -10,7 +10,7 @@
 
 <path d="M6.5 0.5h477a6 6 0 0 1 6 6v21.5h-489v-21.5a6 6 0 0 1 6-6z" fill="#1c1b19"/>
 <text x="16" y="19" font-size="12" fill="#f2f0eb" font-weight="700" text-anchor="start" >satops</text>
-
+<text x="474" y="19" font-size="12" fill="#d9d6cf" font-weight="400" text-anchor="end" >★ 2</text>
 <rect x="18.5" y="44.5" width="76" height="76" fill="url(#dither-light)" stroke="#1c1b19"/>
 <rect x="28.5" y="54.5" width="56" height="56" fill="#f2f0eb" stroke="#1c1b19"/>
 <path d="M50 64h3v3h-3zM59 64h3v3h-3zM44 67h3v3h-3zM47 67h3v3h-3zM50 67h3v3h-3zM53 67h3v3h-3zM56 67h3v3h-3zM59 67h3v3h-3zM62 67h3v3h-3zM44 70h3v3h-3zM47 70h3v3h-3zM62 70h3v3h-3zM65 70h3v3h-3zM44 73h3v3h-3zM47 73h3v3h-3zM62 73h3v3h-3zM65 73h3v3h-3zM44 76h3v3h-3zM47 76h3v3h-3zM62 76h3v3h-3zM65 76h3v3h-3zM44 79h3v3h-3zM47 79h3v3h-3zM50 79h3v3h-3zM53 79h3v3h-3zM56 79h3v3h-3zM59 79h3v3h-3zM62 79h3v3h-3zM44 82h3v3h-3zM47 82h3v3h-3zM62 82h3v3h-3zM65 82h3v3h-3zM44 85h3v3h-3zM47 85h3v3h-3zM65 85h3v3h-3zM68 85h3v3h-3zM44 88h3v3h-3zM47 88h3v3h-3zM65 88h3v3h-3zM68 88h3v3h-3zM44 91h3v3h-3zM47 91h3v3h-3zM62 91h3v3h-3zM65 91h3v3h-3zM44 94h3v3h-3zM47 94h3v3h-3zM50 94h3v3h-3zM53 94h3v3h-3zM56 94h3v3h-3zM59 94h3v3h-3zM62 94h3v3h-3zM50 97h3v3h-3zM59 97h3v3h-3z" fill="#1c1b19" shape-rendering="crispEdges"/>

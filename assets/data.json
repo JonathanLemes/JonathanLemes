@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "stars": {
   "JonathanLemes": 0,
   "Teste-Tecnico-Watson": 0,
@@ -11,26 +11,26 @@
   "palavraa": 0,
   "Moonlight-Vega-OS": 1,
   "Jellyfin-Vega-OS": 3,
-  "NodeDesk": 6,
+  "NodeDesk": 7,
   "reilai": 0,
   "nodedesk-eink": 1,
   "dayfold": 9,
-  "satops": 0
+  "satops": 2
  },
- "totalStars": 26,
+ "totalStars": 29,
  "publicRepos": 15,
- "reposTouched": 40,
- "privateReposTouched": 32,
+ "reposTouched": 41,
+ "privateReposTouched": 33,
  "languages": {
-  "TypeScript": 499.57333146786465,
+  "TypeScript": 501.70842555371746,
   "MDX": 3.0313540386683893,
-  "Swift": 2.056803654565345,
-  "Java": 1.1069588829522587,
-  "JavaScript": 97.5252707375416,
+  "Swift": 2.1335592067444327,
+  "Java": 1.1397781490770023,
+  "JavaScript": 99.44324471973403,
   "HCL": 0.7017582128395057,
   "D2": 0.03947313990595245,
   "Go": 15.36476341977926,
-  "Python": 36.43391928399427,
+  "Python": 36.24797877045796,
   "GDScript": 28.337019933511844,
   "GDShader": 0.44126922529654494,
   "Lua": 2.9685240488234608,
@@ -45,12 +45,12 @@
   "Elixir": 9.086660213191866,
   "Go Template": 0.03800680130248756,
   "Kotlin": 1.9641236603552104,
-  "Ruby": 0.014860644211914669,
+  "Ruby": 0.038158271399232654,
   "Vue": 8.70858622359124,
   "Bru": 0.399086449517659,
   "C#": 0.06400462282815224
  },
- "total": 1486,
+ "total": 1493,
  "weeks": [
   [
    [
@@ -1331,7 +1331,7 @@
    ],
    [
     "2026-09-17",
-    3
+    6
    ],
    [
     "2026-09-18",
@@ -1631,7 +1631,11 @@
    ],
    [
     "2026-11-26",
-    1
+    3
+   ],
+   [
+    "2026-11-27",
+    2
    ]
   ]
  ]
